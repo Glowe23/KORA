@@ -25,6 +25,8 @@ KORA separates intelligence from authority. An AI system may identify a problem 
 
 The repository is designed for local operation. Do not commit `.env`, tunnel credentials, databases, logs, or production data. Cloudflare Tunnel and ConnectWise credentials require separate, manual authenticated setup. ConnectWise Automate remains disabled.
 
+Technical details: [architecture](docs/ARCHITECTURE.md), [security and authority](docs/SECURITY_AND_AUTHORITY.md), [data flow](docs/DATA_FLOW.md), [technical decisions](docs/TECHNICAL_DECISIONS.md), and [testing and limitations](docs/TESTING_AND_LIMITATIONS.md).
+
 ## Current status
 
 ### Implemented
